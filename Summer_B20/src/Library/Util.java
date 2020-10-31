@@ -26,6 +26,7 @@ public class Util {
     // reverse the string and retunr the value
 
     public static int frequency(String str, char ch){
+
         int count = 0;
         for(char each  : str.toCharArray() ){
             if(each == ch){
